@@ -1,3 +1,3 @@
 # cssBayan
-cssBayan rs school
+cssBayan
 project https://liubamiron.github.io/cssBayan/
