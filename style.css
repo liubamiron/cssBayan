@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    /* line-height: 30px;  */
+    /* line-height: 1.6; */
+}
+
+.img_cnt img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
