@@ -14,8 +14,75 @@ body {
     /* line-height: 1.6; */
 }
 
-.img_cnt img {
-    display: block;
-    width: 100%;
-    height: auto;
+.img {
+    /* display: block; */
+    /* width: 100%;
+    height: auto; */
+    border-radius: 50%;
+
 }
+
+.container {
+    padding: 5px 15px 0px 15px;
+  }
+ div .image3 {
+    /* background: url("./assets/images/sankt-peterburg-piter-st-3495.jpg"); */
+    background-color: red;
+    /* width:"400px"; */
+    /* height:"200px"; */
+  }
+  .container:hover .image1 {
+    opacity: 0.3;
+  }
+  .container:hover .image2 {
+    opacity: 0.3;
+  }
+  .container:hover .image3 {
+    opacity: 0.3;
+  }
+ 
+
+  section {
+    background-color: white;
+    height: 1000px;
+    padding: 35px 145px 0px 145px;
+  }
+
+  p {
+    color: green;
+  }
+  
+  /* visited link */
+  p:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  p:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  p:active {
+    color: rgb(15, 15, 14);
+  } 
+  
+   @media screen and (min-width: 320px) and (max-width: 6599px){
+    .container {
+      max-width: 910px;
+      margin: auto;
+      padding: 0;
+    }
+  }
+  
+  @media (width: 820px){
+    .container {
+      width: 810px;	
+    }
+  }
+  
+  @media (width: 1920px) {
+    .container {
+      max-width: 1910px;
+    }
+  } 
